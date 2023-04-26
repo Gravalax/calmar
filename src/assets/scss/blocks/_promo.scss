@@ -1,0 +1,25 @@
+
+/* Promo */
+.promo {
+	padding: 25px 0 35px;
+	background: #000;
+	background: linear-gradient(311deg, #D45B78 -21%, #4B3862 76%);
+
+	&__img {
+		display: block;
+		width: 100%;
+		margin-bottom: 80px;
+		height: auto;
+
+		pointer-events: none; 
+	}
+
+	&__descr {
+		margin: 0 auto 70px;		
+		font-style: normal;
+		font-size: .875rem;
+		line-height: 1.5;
+		text-align: center;
+		color: $main-color;
+	}
+}

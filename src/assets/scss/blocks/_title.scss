@@ -1,0 +1,23 @@
+
+/* Titles*/
+
+.title {
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align: center;
+	color: $promo-color;
+
+	&_promo {
+		margin-bottom: 30px;
+	}
+
+	&_vidjet {
+		margin-bottom: 80px;
+	}
+
+	&_video {
+		margin-bottom: 40px;
+	}
+}
+

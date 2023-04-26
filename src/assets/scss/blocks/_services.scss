@@ -1,0 +1,118 @@
+
+
+/* Services */
+.services {
+	padding-top: 85px;
+
+	&__wrapper {
+		display: flex;
+		flex-flow: column wrap ;
+		position: relative;
+	}
+
+	&__item {
+		max-width: 370px;
+		width: 100%;
+		padding: 50px 0 140px;
+		margin: 0 auto;
+
+		&+& {
+			margin-top: 37px;
+		}
+
+		&_bg1 {
+			background: url('../img/services-image/bg1.jpg') center center / cover no-repeat;
+		}
+	
+		&_bg2 {
+			background: url('../img/services-image/bg2.jpg') center center / cover no-repeat;
+		}
+	}
+
+	&__box {
+		margin: 0 40px 90px;
+	}
+
+	&__subtitle {
+		@include subtitle;
+
+		margin-bottom: 20px;
+		
+		text-align: center;
+	}
+
+	&__descr {
+		@include descr;
+
+		text-align: center;
+	}
+
+	&__bag {
+		display: flex;
+		justify-content: center;
+	}
+
+	&__link {
+		display: inline-block;
+		padding: 10px 25px;
+		font-weight: 400;
+		font-size: 1.5rem;
+		line-height: 28px;
+		text-align: center;
+		color: #FFFFFF;
+		text-decoration: none;
+
+		border: 3px solid #FFFFFF;
+		border-radius: 5px;
+		pointer-events: none;
+
+	}
+
+	&__submarine {
+		display: none;
+		width: 234.19px;
+		height: 179.09px;
+
+		background: url('../img/services-image/submarine.svg') center center / cover no-repeat;
+		filter: drop-shadow(40px 23px 61px rgba(0, 0, 0, 0.3));
+		transform: rotate(13.4deg);
+
+		position: absolute;
+		right: -10px;
+		top: -210px;
+	}
+
+	&__fish-block {
+		width: 139px;
+		height: 80px;
+
+		position: absolute;
+		right: 35px;
+		bottom: -10px;
+
+		transform: translateY(100%);
+
+		z-index: 3;
+
+	}
+
+	&__fish {
+		width: 108.42px;
+		height: 71.43px;
+
+		background: url('../img/services-image/fish.svg') center center / cover no-repeat;
+		filter: drop-shadow(43px 13px 54px rgba(0, 0, 0, 0.4));
+	}
+
+	&__light {
+		width: 74.27px;
+		height: 76.33px;
+
+		background: rgba(255, 255, 255, 0.18);
+		filter: blur(35.5px);
+
+		position: absolute;
+		top: -14.2px;
+		left: -51px;
+	}
+}

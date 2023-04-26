@@ -1,0 +1,43 @@
+
+
+/* Direction */
+
+html {
+	font-size: 16px;
+	border: none !important;
+}
+
+body {
+	font-family: 'Roboto', Arail, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+body.block {
+	overflow: hidden;
+}
+
+.background {
+	background: linear-gradient(179deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);
+}
+
+.image-bottom {
+	width: 100%;
+	min-height: 235px;
+	max-height: 235px;
+
+	overflow: hidden;
+
+	position: relative;
+	// background: url('../img/bottom.svg') 0 0 / cover no-repeat;
+
+	img {
+		height: calc(100% - 20px);
+		position: absolute;
+		bottom: 0;
+	}
+}
+
+.active {
+	display: block;
+}
